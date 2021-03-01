@@ -1,0 +1,43 @@
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(function(){
+        $(".elementor-button").click(function(){
+            $(".btn-group").slideToggle(1000);           
+        });
+
+        $("#chooseAmountHeader").click(function(){
+            $(".btn-group").slideToggle(1000);           
+        });
+
+    });
+    </script>
+
+<p class="elementor-button">alert This is a paragraph.</p>
+<p class="btn-group">Hide ths paragraph</p>
+
+
+<!--This will trigger Jquery in Wordpress Elementor-->
+<script> 
+    document.addEventListener("DOMContentLoaded", function(event) { 
+        jQuery('.smb').hide(); 
+        }); 
+    </script>
+<!--End of jquery within Wordpress Elementor-->
+
+
+
+
+<script>
+    /*
+    $(function(){
+       $(".smb").on(function(){
+           $(".smb").hide();
+       });
+
+    });
+    */
+    </script>
+
+<div class="smb">
+    test test
+</div>
